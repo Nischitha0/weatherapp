@@ -1,0 +1,52 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(rgb(66, 66, 200),white);
+  border-radius: 20px;
+  flex-direction: column;
+
+}
+.searchbar{
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* background-color: aqua; */
+  font-size: 50px;
+
+}
+.searchbar button{
+  height: 40px;
+  width: 60%;
+  font-size: solid 50px;
+  
+  
+}
+.searchbar input{
+  height: 30px;
+  width: 60%;
+}
+.weatherbar{
+  /* border: 2px solid blueviolet; */
+  height: 400px;
+  width: 100%;
+}
+.content{
+  /* border: 3px solid green; */
+  font-size: 15px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
